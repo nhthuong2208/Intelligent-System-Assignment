@@ -1,0 +1,17 @@
+html {
+  font-family: "Roboto";
+}
+
+form .form-body p {
+  font-weight: 700;
+  margin-top: 2rem;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: #2f70af;
+  margin: 0;
+}
+
+/*# sourceMappingURL=main.css.map */
