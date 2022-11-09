@@ -29,10 +29,6 @@ table {
     }
   }
 }
-.score {
-  .border{
-    margin-top: 1rem;
-  }
   .arrow-icon{
     font-size: 2em;
     margin-right: 0.5em;
@@ -43,20 +39,21 @@ table {
   .arrow-down{
     color: var(--negative);
   }
-.visualization{
-  position: relative;
-  max-height: 130px;
-  .line{
-    position: absolute;
-    width: 5px;
-    height: 100%;
-    background-color: rebeccapurple;
-    left: 70%;
-  }
-  .progress-chart{
+  
+  .visualization{
+    position: relative;
+    max-height: 130px;
+    .line{
+      position: absolute;
+      width: 5px;
+      height: 100%;
+      background-color: rebeccapurple;
+      left: 60%;
+    }
+    .progress-chart{
     margin: auto 10em;
     .progress{
-
+      
       margin-top: 0.5rem;
       .progress-bar{
         background-color: var(--grey);
@@ -190,5 +187,24 @@ $howManySteps: 100; //this needs to be even.
 			transform: rotate(#{$degrees}deg);
     }
 	}
+  .score {
+    .border{
+      margin-top: 1rem;
+    }
 }
+
+.content-card{
+  text-decoration: none;
+  color: black;
+}
+}
+.cards{
+  
+  .card{
+    .custom-card-header{
+      display: flex;
+      justify-content: space-between;
+    }
+    margin-top: 2rem;
+  }
 }
